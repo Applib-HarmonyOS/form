@@ -1,0 +1,38 @@
+<element name='neutheme' src='../../../../../../node_modules/neumorphism/theme/theme.hml'></element>
+<element name='neuform' src='../../../../../../node_modules/neumorphism/form/form.hml'></element>
+<element name='neuinput' src='../../../../../../node_modules/neumorphism/input/input.hml'></element>
+<element name='neulabel' src='../../../../../../node_modules/neumorphism/label/label.hml'></element>
+
+<neutheme class="container" theme="" color="">
+    <text class='title'>
+        Form
+    </text>
+    <neuform width="350px" height="260px" border="20px">
+        <form onsubmit='onSubmit' onreset='onReset'>
+            <neuinput icon="common/user.png" border="30px">
+                <input type="email" maxlength="20" placeholder="Email" ></input>
+            </neuinput>
+            <neuinput icon="" border="20px">
+                <input type="password" maxlength="20" placeholder="Password" ></input>
+            </neuinput>
+            <div style="height: 60px;">
+                <input type='submit' style="border-radius:20px;">Submit</input>
+                <input type='reset' style="border-radius:20px;">Reset</input>
+            </div>
+        </form>
+    </neuform>
+    <text class='title'>
+        Input
+    </text>
+    <neuinput icon="common/user.png" width="300px" height="50px" border="50px" >
+        <input type="text" maxlength="20" placeholder="Input" ></input>
+    </neuinput>
+    <text class='title'>
+        Label With Icon
+    </text>
+    <neulabel text="Label" icon="common/heart.png" width="200px" height="50px" border="50px" ></neulabel>
+    <text class='title'>
+        Label Without Icon
+    </text>
+    <neulabel text="Label" width="200px" height="50px" border="50px" ></neulabel>
+</neutheme>

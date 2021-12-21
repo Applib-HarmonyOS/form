@@ -1,0 +1,8 @@
+<div class="neumorph_container" style="width: {{width}}; height: {{height}}; border-radius: {{border}};">
+    <div class="neumorph_innercontainer neumorph_input" style="border-radius: {{border}};">
+        <image if="{{icon}}" class="icon" src="{{icon}}"></image>
+        <div class="slot">
+            <slot></slot>
+        </div>
+    </div>
+</div>
