@@ -86,3 +86,9 @@ Usage:
 ```html
 <neulabel text="Label" icon="common/icons/heart.png" width="200px" height="50px" border="50px" ></neulabel>
 ```
+
+# Reference:
+
+<a href="https://neumorphism.io/">neumorphism.io</a>
+
+<a href="https://ismail9k.github.io/neomorphism/">ismail9k.github.io/neomorphism</a>
