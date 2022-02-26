@@ -1,8 +1,8 @@
-<element name='neutheme' src='../node_modules/hmos-neumorphism/theme/theme.hml'></element>
-<element name='neuform' src='../node_modules/hmos-neumorphism/form/form.hml'></element>
-<element name='neuinput' src='../node_modules/hmos-neumorphism/input/input.hml'></element>
-<element name='neulabel' src='../node_modules/hmos-neumorphism/label/label.hml'></element>
-<element name='neubutton' src='../node_modules/hmos-neumorphism/button/button.hml'></element>
+<element name='neutheme' src='../../../../../../node_modules/hmos-neumorphism/theme/theme.hml'></element>
+<element name='neuform' src='../../../../../../node_modules/hmos-neumorphism/form/form.hml'></element>
+<element name='neuinput' src='../../../../../../node_modules/hmos-neumorphism/input/input.hml'></element>
+<element name='neulabel' src='../../../../../../node_modules/hmos-neumorphism/label/label.hml'></element>
+<element name='neubutton' src='../../../../../../node_modules/hmos-neumorphism/button/button.hml'></element>
 
 <neutheme class="container" theme="" color="">
     <text class='title'>

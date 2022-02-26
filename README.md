@@ -2,9 +2,7 @@
 
 # Installation :
 
-Install using npm inside pages directory
-
-```npm init -y```
+Install using npm
 
 ```npm i hmos-neumorphism ```
 
@@ -27,7 +25,7 @@ button, input{
 
 Import:
 ```html
-<element name='neuform' src='../node_modules/hmos-neumorphism/form/form.hml'></element>
+<element name='neuform' src='../../../../../../node_modules/hmos-neumorphism/form/form.hml'></element>
 ```
 
 Usage:
@@ -52,7 +50,7 @@ Usage:
 
 Import:
 ```html
-<element name='neuinput' src='../node_modules/hmos-neumorphism/input/input.hml'></element>
+<element name='neuinput' src='../../../../../../node_modules/hmos-neumorphism/input/input.hml'></element>
 ```
 
 Usage:
@@ -66,7 +64,7 @@ Usage:
 
 Import:
 ```html
-<element name='neulabel' src='../node_modules/hmos-neumorphism/label/label.hml'></element>
+<element name='neulabel' src='../../../../../../node_modules/hmos-neumorphism/label/label.hml'></element>
 ```
 
 Usage:
