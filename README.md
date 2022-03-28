@@ -2,16 +2,9 @@
 
 # Installation :
 
-1. Copy the neumorph_form folder in your repo.
-2. Add neumorphism as a dependency in your package.json file.
+Install using npm
 
-```json
-{
-  "dependencies": {
-    "neumorphism": "file:../neumorph_form"
-  }
-}
-```
+```npm i hmos-neumorphism ```
 
 # Note :
 
@@ -32,28 +25,22 @@ button, input{
 
 Import:
 ```html
-<element name='neuform' src='../../../../../../node_modules/neumorphism/form/form.hml'></element>
+<element name='neuform' src='../../../../../../node_modules/hmos-neumorphism/form/form.hml'></element>
 ```
 
 Usage:
 ```html
-<neuform width="350px" height="300px" border="20px">
-    <form onsubmit='onSubmit' onreset='onReset'>
-      <neuinput icon="common/icons/user.png" border="30px">
-        <input type="email" maxlength="20" placeholder="Email" ></input>
-      </neuinput>
-      <neuinput icon="" border="20px">
-        <input type="password" maxlength="20" placeholder="Password" ></input>
-      </neuinput>
-      <div>
-        <neubutton icon="" width="150px" border="20px">
-          <input type='submit' style="border-radius:20px;">Submit</input>
-        </neubutton>
-        <neubutton icon="" width="150px" border="20px">
-          <input type='reset' style="border-radius:20px;">Reset</input>
-        </neubutton>
-    </div>
-  </form>
+<neuform width="350px" height="300px" border="20px" @submit-event="buttonClick" @reset-event="buttonClick">
+ <neuinput icon="common/icons/user.png" type="email" maxlength="20" placeholder="Email" border="30px"></neuinput>
+ <neuinput icon="" type="password" maxlength="20" placeholder="Password" border="20px"></neuinput>
+ <div>
+  <neubutton icon="" width="150px" border="20px">
+   <input type='submit' style="border-radius:20px;">Submit</input>
+  </neubutton>
+  <neubutton icon="" width="150px" border="20px">
+   <input type='reset' style="border-radius:20px;">Reset</input>
+  </neubutton>
+ </div>
 </neuform>
 ```
 
@@ -63,14 +50,12 @@ Usage:
 
 Import:
 ```html
-<element name='neuinput' src='../../../../../../node_modules/neumorphism/input/input.hml'></element>
+<element name='neuinput' src='../../../../../../node_modules/hmos-neumorphism/input/input.hml'></element>
 ```
 
 Usage:
 ```html
-<neuinput icon="common/icons/user.png" width="300px" height="50px" border="50px" >
-  <input type="text" maxlength="20" placeholder="Input" ></input>
-</neuinput>
+<neuinput icon="common/icons/user.png" type="text" maxlength="20" placeholder="Input" width="300px" height="50px" border="50px" ></neuinput>
 ```
 
 # Label
@@ -79,7 +64,7 @@ Usage:
 
 Import:
 ```html
-<element name='neulabel' src='../../../../../../node_modules/neumorphism/label/label.hml'></element>
+<element name='neulabel' src='../../../../../../node_modules/hmos-neumorphism/label/label.hml'></element>
 ```
 
 Usage:
